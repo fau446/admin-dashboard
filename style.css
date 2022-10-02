@@ -1,0 +1,15 @@
+/* 5 rows, 4 columns  */
+
+* {
+  padding: 0;
+  /* margin: 0; */
+  box-sizing: border-box;
+}
+
+nav {
+  background: lightblue;
+}
+
+.main-content, .sidebar {
+  background: lightgray;
+}
