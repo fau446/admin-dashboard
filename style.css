@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "roboto";
+  src: url("fonts/roboto-regular-webfont.woff2") format("woff2"), url("fonts/roboto-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   padding: 0;
   /* margin: 0; */
@@ -9,6 +16,7 @@ body {
   grid-template-rows: 1fr 4fr;
   grid-template-columns: 1fr 3fr 1fr;
   margin: 0;
+  font-family: "roboto", sans-serif;
 }
 
 header {
@@ -35,6 +43,11 @@ header {
   padding: 5px;
   border: none;
   width: 100%;
+}
+
+.logo {
+  height: 30px;
+  width: 30px;
 }
 
 .icon {
@@ -81,7 +94,7 @@ header {
 
 button {
   color: white;
-  background: lightblue;
+  background: rgb(46, 98, 170);
   border: none;
   border-radius: 30px;
   width: 100px;
@@ -90,8 +103,25 @@ button {
 }
 
 nav {
-  background: lightblue;
+  background: rgb(46, 98, 170);
+  color: white;
   grid-row: 1 / 3;
+  padding-left: 20px;
+}
+
+h1, li {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  margin-bottom: 50px;
+}
+
+li {
+  list-style: none;
+  gap: 5px;
+  margin-bottom: 15px;
 }
 
 .main-content, .sidebar {
