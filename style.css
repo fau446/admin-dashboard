@@ -157,6 +157,14 @@ a {
   gap: 5px;
 }
 
+a:hover {
+  text-shadow: 0 0 10px white;
+}
+
+a:active {
+  text-shadow: none;
+}
+
 ul {
   margin-bottom: 50px;
 }
