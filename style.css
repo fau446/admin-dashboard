@@ -146,9 +146,15 @@ nav {
   padding-left: 20px;
 }
 
-h1, li {
+h1, a {
   display: flex;
   align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  gap: 5px;
 }
 
 ul {
