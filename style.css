@@ -39,7 +39,7 @@ body {
 header {
   grid-column: 2 / 4;
   display: grid;
-  grid-template-rows: 100px 100px;
+  grid-template-rows: 1fr 1fr;
   padding: 0 50px;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
@@ -198,10 +198,6 @@ li {
 .line-separator {
   border-top: 2px solid lightgrey;
   margin: 18px 0 0 0;
-}
-
-.sidebar-item {
-  /* height: 100%; */
 }
 
 .trending-item {
